@@ -1,0 +1,117 @@
+@charset "UTF8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --verde-escuro: #1F4D2B;
+    --verde: #2E6B34;
+    --verde-claro: #8FBF6A;
+    --bege: #F4F1E8;
+    --verde-fundo: #C7D9B3;
+    --branco: #FFFFFF;
+    --texto: #2F2F2F;
+    --verde-fundo: #C7D9B3;
+
+    --fonte-titulo: "Playfair Display", serif;
+    --fonte-subtitulo: "Poppins", sans-serif;
+    --fonte-texto: "Poppins", sans-serif;
+    --fonte-destaque: "Bebas Neue", sans-serif;
+}
+
+
+body {
+    text-align: justify;
+    background-color: var(--bege);
+
+}
+
+header {
+    background-color: var(--verde-escuro);
+}
+
+header div {
+    display: grid;
+    place-items: center;
+}
+
+div img {
+    height: 120px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+.barradnav {
+    background-color: var(--branco);
+    height: 8vh;
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-auto-flow: column;
+    font-family: var(--fonte-subtitulo);
+}
+
+nav a {
+    background-color: var(--verde-fundo);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-left: 20px;
+    color: var(--verde);
+
+}
+
+a:hover {
+    background-color: var(--verde);
+    color: var(--branco);
+    transition: .6s;
+}
+
+
+.conteiner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.sol{
+ background-color: #1F4D2B;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.336);
+}
+
+.sombra{
+ background-color: #1F4D2B;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.336);
+}
+
+
+.produto {
+    height: 200px;
+}
+
+.detalhes {
+    text-align: center;
+}
+
+footer {
+    background-color: var(--verde-escuro);
+    height: 40px;
+}
+
+footer p {
+    display: flex;
+    font-family: var(--fonte-destaque);
+    justify-content: center;
+    padding-top: 13px;
+    color: var(--branco);
+}
