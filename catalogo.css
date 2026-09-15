@@ -31,6 +31,7 @@ body {
 
 header {
     background-color: var(--verde-escuro);
+    width: 100vw;
 }
 
 header div {
@@ -39,8 +40,8 @@ header div {
 }
 
 div img {
-    height: 120px;
-    width: 90vw;
+    height: 110px;
+    width: 95vw;
     padding: 10px 0px 10px 0px;
 }
 
