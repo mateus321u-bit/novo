@@ -30,7 +30,7 @@ body {
 }
 
 header {
-   background-color: red;
+    background-color: rgb(0, 8, 255);
     width: 100%;
 }
 
@@ -39,8 +39,8 @@ header div {
     place-items: center;
 }
 
-div img {
-    
+.logo {
+
     width: 95vw;
     padding: 10px 0px 10px 0px;
 }
@@ -80,16 +80,16 @@ a:hover {
     justify-items: center;
 }
 
-.sol{
- background-color: #1F4D2B;
+.sol {
+    background-color: #1F4D2B;
     margin: 10px;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.336);
 }
 
-.sombra{
- background-color: #1F4D2B;
+.sombra {
+    background-color: var(--verde-fundo);
     margin: 10px;
     overflow: hidden;
     border-radius: 10px;
@@ -99,22 +99,26 @@ a:hover {
 
 .produto {
     height: 200px;
+    object-fit: cover;
+    width: 100%;
+
 }
 
 .detalhes {
-    text-align: center;
+    text-align: left;
 }
 
 footer {
     background-color: var(--verde-escuro);
     height: 40px;
-    width: 100%;
+    width: 100vw;
+
+
 }
 
 footer p {
     display: flex;
-    font-family: var(--fonte-destaque);
     justify-content: center;
-    padding-top: 13px;
-    color: var(--branco);
+    height: 30px;
+    width: 100vw;
 }
