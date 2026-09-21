@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 :root {
@@ -27,11 +28,12 @@ body {
     text-align: justify;
     background-color: var(--bege);
 
+
 }
 
 header {
-    background-color: rgb(0, 8, 255);
-    width: 100%;
+    background-color: rgb(255, 136, 0);
+    width: 97vw;
 }
 
 header div {
@@ -41,7 +43,7 @@ header div {
 
 .logo {
 
-    width: 95vw;
+    width: 90vw;
     padding: 10px 0px 10px 0px;
 }
 
@@ -55,6 +57,7 @@ header div {
     justify-content: space-evenly;
     grid-auto-flow: column;
     font-family: var(--fonte-subtitulo);
+    padding-right: 10px;
 }
 
 nav a {
@@ -78,10 +81,11 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+
 }
 
 .sol {
-    background-color: #1F4D2B;
+    background-color: var(--verde-fundo);
     margin: 10px;
     overflow: hidden;
     border-radius: 10px;
@@ -94,6 +98,7 @@ a:hover {
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.336);
+
 }
 
 
@@ -112,6 +117,7 @@ footer {
     background-color: var(--verde-escuro);
     height: 40px;
     width: 100vw;
+    margin-top: 10px;
 
 
 }
@@ -120,7 +126,11 @@ footer a {
     display: flex;
     justify-content: center;
     padding-top: 5px;
-    height: 40px;
+    height: 35px;
     width: 100vw;
-   
+
+}
+
+footer img{
+    width: 70%;
 }
