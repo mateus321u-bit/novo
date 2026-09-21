@@ -27,7 +27,7 @@
 body {
     text-align: justify;
     background-color: var(--bege);
-
+ 
 
 }
 
@@ -59,7 +59,7 @@ header div {
     justify-content: space-evenly;
     grid-auto-flow: column;
     font-family: var(--fonte-subtitulo);
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 nav a {
@@ -94,6 +94,16 @@ a:hover {
     box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.336);
 }
 
+#claro{
+    margin: 15px 0px 15px 0px;
+     border-bottom: 3px solid var(--verde-escuro);
+     width: 90%;
+     margin-left: 34px;
+     font-family: var(--fonte-titulo);
+     color: var(--verde);
+  
+}
+
 .sombra {
     background-color: var(--verde-fundo);
     margin: 10px;
@@ -101,6 +111,23 @@ a:hover {
     border-radius: 10px;
     box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.336);
 
+}
+
+main h2{
+    display: flex;
+}
+
+#escuro{
+   margin: 15px 0px 15px 0px;
+     border-bottom: 3px solid var(--verde-escuro);
+     width: 90%;
+     margin-left: 34px;
+     font-family: var(--fonte-titulo);
+     color: var(--verde);
+}
+
+.detalhes{
+    font-family: var(--fonte-titulo) ;
 }
 
 
