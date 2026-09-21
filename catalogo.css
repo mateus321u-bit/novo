@@ -32,7 +32,7 @@ body {
 }
 
 header {
-    background-color: rgb(21, 255, 0);
+    background-color: rgb(6, 17, 5);
     width: 100vw;
 }
 
@@ -69,7 +69,7 @@ nav a {
     border-radius: 20px;
     margin-left: 20px;
     color: var(--verde);
-    width: 100%;
+    width: 90%;
 
 }
 
