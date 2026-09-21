@@ -32,18 +32,20 @@ body {
 }
 
 header {
-    background-color: rgb(255, 136, 0);
-    width: 97vw;
+    background-color: rgb(0, 183, 255);
+    width: 100vw;
 }
 
 header div {
     display: grid;
     place-items: center;
+    height: 100px;
 }
 
 .logo {
 
-    width: 90vw;
+    width: 65vw;
+    height: 100px;
     padding: 10px 0px 10px 0px;
 }
 
@@ -131,6 +133,6 @@ footer a {
 
 }
 
-footer img{
-    width: 70%;
+footer img {
+    width: 50%;
 }
