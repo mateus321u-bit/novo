@@ -40,9 +40,6 @@ header div {
 
 .logo {
     width: 300px;
-    height: 80px;
-    padding: 10px 0px 10px 0px;
-
 }
 
 
@@ -62,7 +59,7 @@ nav a {
     padding: 10px;
     text-decoration: none;
     border-radius: 20px;
-    margin-left: 20px;
+    margin-right: 20px;
     color: var(--verde);
     width: 90%;
 
@@ -123,7 +120,6 @@ a:hover {
 .nome {
     font-family: var(--fonte-titulo);
     font-size: 20px;
-    font-weight: bolder;
     padding: 5px 0px 0px 5px;
 }
 
@@ -131,12 +127,13 @@ a:hover {
     font-family: var(--fonte-titulo);
     padding-left: 5px;
     color: var(--verde-detalhes);
+    width: 80%;
 }
 
 .valor {
     color: var(--verde-escuro);
     font-weight: bold;
-    font-size: 25px;
+    font-size: 19px;
     padding: 5px;
 }
 
@@ -152,7 +149,6 @@ a:hover {
 
 footer {
     background-color: var(--verde-escuro);
-    height: 40px;
     width: 100vw;
     margin-top: 10px;
 
