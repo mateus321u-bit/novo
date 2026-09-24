@@ -130,6 +130,7 @@ nav a:hover {
 }
 
 .nome {
+    font-family: var(--fonte-titulo);
     font-size: 20px;
     padding: 5px 0px 5px 5px;
     font-weight:bold;
