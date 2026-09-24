@@ -23,7 +23,7 @@
     --fonte-destaque: "Bebas Neue", sans-serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -42,25 +42,25 @@ header div {
 }
 
 .logo {
- width: 70%;
+    width: 70%;
     height: 75px;
 }
 
 
 .barradnav {
     background-color: var(--branco);
-    height: 8vh;
+    height: 6vh;
     display: grid;
     align-items: center;
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
     font-family: var(--fonte-subtitulo);
-    
+
 }
 
 nav a {
     background-color: var(--verde-fundo);
-    padding: 5px 13px ;
+    padding: 5px 5px;
     text-decoration: none;
     border-radius: 20px;
     color: var(--verde);
@@ -79,7 +79,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    
+
 }
 
 .sol {
@@ -114,8 +114,8 @@ nav a:hover {
     transition: 0.3s;
 }
 
-.sombra:hover{
-    transform:scale(1.03) ;
+.sombra:hover {
+    transform: scale(1.03);
 }
 
 
@@ -125,8 +125,8 @@ nav a:hover {
     color: var(--verde);
     grid-column: 1/ 3;
     width: 90%;
-     font-family: var(--fonte-titulo);
-    
+    font-family: var(--fonte-titulo);
+
 
 }
 
@@ -134,7 +134,7 @@ nav a:hover {
     font-family: var(--fonte-titulo);
     font-size: 20px;
     padding: 5px 0px 5px 5px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .detalhes {
@@ -160,7 +160,7 @@ nav a:hover {
 
 }
 
-section p{
+section p {
     padding-bottom: 10px;
 }
 
