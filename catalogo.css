@@ -33,12 +33,14 @@ body {
 header div {
     display: grid;
     place-items: center;
-    height: 80px;
+    height: 65px;
     background-color: var(--verde-escuro);
 }
 
 .logo {
-    width: 300px;
+    width: 250px;
+    height: 60px;
+    overflow: hidden;
 }
 
 
@@ -51,19 +53,18 @@ header div {
     grid-template-columns: repeat(2, 1fr);
     font-family: var(--fonte-subtitulo);
     width: 99%;
+    text-align: left;
 
 }
 
 nav a {
     background-color: var(--verde-fundo);
-    padding: 5px;
+    padding: 5px 30px ;
     text-decoration: none;
     border-radius: 20px;
     color: var(--verde);
-    width: 95%;
     transition: .6s;
-  
-
+    max-width: 100%;
 }
 
 nav a:hover {
