@@ -38,7 +38,7 @@ header div {
     display: grid;
     place-items: center;
     height: 80px;
-    background-color: var(--bege);
+    background-color: var(--verde-escuro);
 }
 
 .logo {
@@ -60,7 +60,7 @@ header div {
 
 nav a {
     background-color: var(--verde-fundo);
-    padding: 5px 5px;
+    padding: 6px 6px;
     text-decoration: none;
     border-radius: 20px;
     color: var(--verde);
