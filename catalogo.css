@@ -48,9 +48,10 @@ header div {
     height: 8vh;
     display: grid;
     align-items: center;
-    justify-content: space-evenly;
-    grid-auto-flow: column;
+   justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
     font-family: var(--fonte-subtitulo);
+    width: 99%;
 
 }
 
@@ -59,7 +60,6 @@ nav a {
     padding: 10px;
     text-decoration: none;
     border-radius: 20px;
-    margin-right: 20px;
     color: var(--verde);
     width: 90%;
 
