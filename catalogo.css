@@ -56,7 +56,6 @@ header div {
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
     font-family: var(--fonte-subtitulo);
-    width: 99%;
 }
 
 nav a {
