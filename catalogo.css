@@ -38,7 +38,7 @@ header div {
     display: grid;
     place-items: center;
     height: 80px;
-    background-color: var(--verde-escuro);
+    background-color: var(--bege);
 }
 
 .logo {
@@ -66,6 +66,7 @@ nav a {
     color: var(--verde);
     transition: .6s;
     margin-right: 15px;
+    font-size:0.9em;
 }
 
 nav a:hover {
