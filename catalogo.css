@@ -57,8 +57,6 @@ header div {
     grid-template-columns: repeat(2, 1fr);
     font-family: var(--fonte-subtitulo);
     width: 99%;
-    text-align: left;
-
 }
 
 nav a {
@@ -68,7 +66,6 @@ nav a {
     border-radius: 20px;
     color: var(--verde);
     transition: .6s;
-    max-width: 100%;
 }
 
 nav a:hover {
