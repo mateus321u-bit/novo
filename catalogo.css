@@ -85,7 +85,7 @@ nav a:hover {
 
 .conteiner {
     display: grid;
-    grid-template-columns: repeat(2,  1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: stretch;
     gap: 12px;
     padding: 0 12px;
@@ -161,6 +161,20 @@ nav a:hover {
     font-family: var(--fonte-subtitulo);
     font-size: clamp(0.9rem, 2.5vw, 1.2rem);
     padding: 8px;
+}
+
+.comprar {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: var(--verde-claro);
+    margin: 10px;
+    border-radius: 5px;
+    color: var(--branco);
+}
+
+.comprar:hover{
+    background-color: var(--verde-escuro);
 }
 
 
