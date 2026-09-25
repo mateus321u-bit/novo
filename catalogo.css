@@ -64,17 +64,13 @@ header div {
 
 nav a {
     background-color: var(--verde-fundo);
-
     padding: 8px 10px;
     text-decoration: none;
     border-radius: 20px;
-
     color: var(--verde);
     transition: 0.3s;
-
     font-size: clamp(0.9rem, 2.5vw, 0.95rem);
     text-align: center;
-
     width: 100%;
     max-width: 220px;
 }
@@ -131,7 +127,6 @@ nav a:hover {
 
 .produto {
     width: 100%;
-    height: clamp(130px, 30vw, 220px);
     object-fit: cover;
     display: block;
 }
