@@ -175,6 +175,7 @@ nav a:hover {
 
 .comprar:hover{
     background-color: var(--verde-escuro);
+    transition: 0.3s;
 }
 
 
